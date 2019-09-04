@@ -1,0 +1,92 @@
+body
+{
+	font-family: Bahnschrift Condensed;
+}
+ul
+{ 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: sticky;
+	top: 0;
+}
+li
+{
+	float: left;
+}
+li a
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover
+{
+	background-color: #111;
+}
+.active
+{
+	background-color: #4caf50;
+}
+input[type=text]
+{
+	font-family: Bahnschrift Condensed;
+	width: 20%;
+	border: 2px solid #ccc;
+	border-radius: 45px;
+	font-size: 14px;
+	background-color: white;
+	background-image: url('ikoncari.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 5px 10px 5px 10px;
+}
+form
+{
+	padding: 7.5px;
+	text-align: right;
+}
+.container
+{
+	position: relative;
+	font-family: Bahnschrift Condensed;
+}
+.text-block
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: black; 
+	fill-opacity: initial;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 10px;
+	text-align: center;	
+	line-height: 0.5;
+}
+.center
+{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+img
+{
+	width: 100%;
+	height: auto;
+	opacity: 1;
+}
+hr
+{
+    width: 250px;
+    border: 1px solid #333333;
+}
